@@ -2,6 +2,7 @@ class Wizard {
 
   constructor() {
     this.magicReady = false;
+    this.location = "The Shire"
   }
 
   warmUp(spell) {
@@ -20,6 +21,13 @@ class Wizard {
       return this.spell;
     }
 
+    return
+  }
+
+  teleport(destination){
+    console.log("WIZARD TELEPORTING TO ", destination);
+    this.location = destination
+  
     return
   }
 }
