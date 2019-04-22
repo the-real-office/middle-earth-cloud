@@ -24,12 +24,12 @@ class Wizard {
     return
   }
 
-  // teleport(destination){
-  //   console.log("WIZARD TELEPORTING TO ", destination);
-  //   this.location = destination
-  //
-  //   return
-  // }
+  teleport(destination){
+    console.log("WIZARD TELEPORTING TO ", destination);
+    this.location = destination
+  
+    return
+  }
 }
 
 module.exports = Wizard;
