@@ -1,8 +1,8 @@
 describe("#Wizard", function() {
-  var Wizard = require('../.././wizard.js');
+  var Wizard = require('wizard.js');
 
   var wizard;
-  var spell = "Kazam"
+  var spell = "Kaaaazam"
   wizard = new Wizard();
 
   it("should not have magic ready", function() {
