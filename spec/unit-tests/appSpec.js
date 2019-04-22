@@ -1,5 +1,5 @@
 describe("#Wizard", function() {
-  var Wizard = require('wizard.js');
+  var Wizard = require('../.././Wizard.js');
 
   var wizard;
   var spell = "Kaaaazam"
