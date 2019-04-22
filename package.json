@@ -1,0 +1,19 @@
+{
+  "name": "middle-earth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ec2-3-88-222-90.compute-1.amazonaws.com/kevin-alwell/middle-earth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
