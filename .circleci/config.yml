@@ -7,4 +7,3 @@ workflows:
     "Hello Workflow":
         jobs:
           - hello/hello-build
-Commit and push the changes to trigger a build. If this is your first project on CircleCI, go to the Projects page, click the Add Projects button, then click the Set Up Project button next to your project. You may also click Start Building to manually trigger your first build.
