@@ -23,12 +23,4 @@ describe("#Wizard", function() {
       expect(spellCast).toEqual("Kaaaazam");
   });
 
-  it("should teleport from its current place to destination", function() {
-    var destination = "mordor";
-  
-    wizard.teleport("mordor")
-  
-    expect(wizard.location).toEqual("mordor");
-  });
-
 });
