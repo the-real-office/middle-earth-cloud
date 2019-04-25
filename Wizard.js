@@ -1,5 +1,5 @@
 class Wizard {
-
+// Wizard should cast spells. 
   constructor() {
     this.magicReady = false;
     this.location = "The Shire"
