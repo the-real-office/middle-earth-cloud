@@ -21,12 +21,12 @@ var createWizard = () => {
   wizard.castSpell();
 }
 
-app.all("/middle-earth", (req, res) => {
+app.all("/wizard/speak", (req, res) => {
   console.log("************************************")
   console.log("middle-earth REQ: ", req.body);
   console.log("************************************")
 
-  res.sendStatus(200)
+  res.status(200).send('A wizard arrives precisely when they mean too!');
 })
 
 // Start server
