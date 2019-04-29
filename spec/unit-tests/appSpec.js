@@ -1,5 +1,5 @@
 describe("#Wizard", function() {
-  var Wizard = require('../.././Wizard.js');
+  var Wizard = require('../../src/app/modules/Wizard.js');
 
   var wizard;
   var spell = "Kaaaazam"
@@ -22,12 +22,12 @@ describe("#Wizard", function() {
 
       expect(spellCast).toEqual("Kaaaazam");
   });
-  
+
   it("should teleport from its current place to destination", function() {
       var destination = "mordor";
-    
+
       wizard.teleport("mordor")
-    
+
       expect(wizard.location).toEqual("mordor");
   });
 
