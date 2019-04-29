@@ -2,7 +2,6 @@ var Wizard = require("./src/app/modules/Wizard.js");
 require('dotenv').config()
 var express = require('express');
 var bodyParser = require('body-parser');
-var path = require('path')
 const port = process.env.PORT || 3000;
 const app = express();
 app.use(bodyParser.json());
@@ -21,10 +20,6 @@ var createWizard = () => {
 
   wizard.castSpell();
 }
-
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + './index.html'));
-});
 
 app.all("/middle-earth", (req, res) => {
   console.log("************************************")
