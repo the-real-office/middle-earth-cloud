@@ -23,13 +23,6 @@ class Wizard {
 
     return
   }
-  
-  teleport(destination){
-      console.log("WIZARD TELEPORTING TO ", destination);
-      this.location = destination
-    
-      return
-  }
 
 }
 
