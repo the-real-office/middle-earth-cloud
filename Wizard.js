@@ -1,5 +1,5 @@
 class Wizard {
-
+// Wizard should cast spells. 
   constructor() {
     this.magicReady = false;
     this.location = "The Shire"
@@ -23,13 +23,14 @@ class Wizard {
 
     return
   }
+  
+//   teleport(destination){
+//       console.log("WIZARD TELEPORTING TO ", destination);
+//       this.location = destination
+    
+//       return
+//   }
 
-  // teleport(destination){
-  //   console.log("WIZARD TELEPORTING TO ", destination);
-  //   this.location = destination
-  //
-  //   return
-  // }
 }
 
 module.exports = Wizard;
